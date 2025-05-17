@@ -27,7 +27,6 @@ services:
     ports:
       - "80:80"
     environment:
-      - VITE_API_URL=http://ec2-13-53-102-3.eu-north-1.compute.amazonaws.com:5555
     depends_on:
       - backend
 
