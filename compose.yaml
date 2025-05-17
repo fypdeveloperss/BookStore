@@ -26,7 +26,6 @@ services:
     restart: always
     ports:
       - "80:80"
-    environment:
     depends_on:
       - backend
 
